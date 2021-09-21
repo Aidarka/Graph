@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 var series = LineGraphSeries<DataPoint>();
                 if (switch1.isChecked) {
                     Generator()
-                        .generateCos(seek_min.progress, seek_max.progress, series)
+                        .generate(seek_min.progress, seek_max.progress, series)
                 } else {
                     Generator()
                         .generateHyperbola(seek_min.progress, seek_max.progress, series)

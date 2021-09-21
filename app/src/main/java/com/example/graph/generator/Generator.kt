@@ -6,7 +6,7 @@ import kotlin.math.cos
 import kotlin.math.sqrt
 
 class Generator() {
-    fun generateCos(min: Int, max: Int, series: LineGraphSeries<DataPoint>) {
+    fun generate(min: Int, max: Int, series: LineGraphSeries<DataPoint>) {
         var x: Double
         var y: Double
         y= 0.0
